@@ -4,6 +4,9 @@
 [![MIT License](https://img.shields.io/badge/MIT-License-green)](LICENSE)
 [![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
 
+![aws-eye (2)](https://github.com/user-attachments/assets/19257070-14dd-47c9-a808-4460c6f02b24)
+
+
 A lightweight, interactive AWS EC2 utility that fetches instance details in a clean, readable format. Think of it as a user-friendly, interactive version of `aws ec2 describe-instances`.
 
 ## Overview
