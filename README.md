@@ -1,8 +1,12 @@
 # aws-eye 🟧
+
 [![Go Reference](https://pkg.go.dev/badge/github.com/neeraj542/aws-eye.svg)](https://pkg.go.dev/github.com/neeraj542/aws-eye)
+![GitHub Release](https://img.shields.io/github/v/release/neeraj542/aws-eye)
+![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)
 [![Documentation](https://img.shields.io/badge/docs-available-blue)](DOCUMENTATION.md)
 [![MIT License](https://img.shields.io/badge/MIT-License-green)](LICENSE)
 [![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
+
 
 ![aws-eye (2)](https://github.com/user-attachments/assets/19257070-14dd-47c9-a808-4460c6f02b24)
 
@@ -34,7 +38,7 @@ aws-eye is a command-line tool that provides an intuitive interface for querying
 
 ```bash
 # Clone the repository
-git clone https://github.com/51xneeraj/aws-eye.git
+git clone https://github.com/neeraj542/aws-eye.git
 cd aws-eye
 
 # Install dependencies
