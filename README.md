@@ -1,5 +1,5 @@
 # aws-eye 🟧
-
+[![Go Reference](https://pkg.go.dev/badge/github.com/neeraj542/aws-eye.svg)](https://pkg.go.dev/github.com/neeraj542/aws-eye)
 [![Documentation](https://img.shields.io/badge/docs-available-blue)](DOCUMENTATION.md)
 [![MIT License](https://img.shields.io/badge/MIT-License-green)](LICENSE)
 [![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
@@ -26,7 +26,7 @@ aws-eye is a command-line tool that provides an intuitive interface for querying
 
 ### Prerequisites
 
-- Go 1.21 or later
+- Go 1.21 or later 
 - AWS account with EC2 access
 - AWS credentials configured (see [Documentation](DOCUMENTATION.md#aws-credentials-setup))
 
