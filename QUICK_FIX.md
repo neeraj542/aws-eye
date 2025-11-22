@@ -1,12 +1,12 @@
 # Quick Fix: UnauthorizedOperation Error
 
-## 🔴 Your Current Error
+## Your Current Error
 
 ```
-User: arn:aws:iam::225989378089:user/dev_vikas is not authorized to perform: ec2:DescribeInstances
+User: arn:aws:iam::225989378089:user/neeraj115 is not authorized to perform: ec2:DescribeInstances
 ```
 
-**Problem**: Your IAM user `dev_vikas` doesn't have permission to read EC2 instances.
+**Problem**: Your IAM user `neeraj115` doesn't have permission to read EC2 instances.
 
 ---
 
@@ -24,7 +24,7 @@ User: arn:aws:iam::225989378089:user/dev_vikas is not authorized to perform: ec2
 
 3. **Find Your User**
    - Click "Users" in the left sidebar
-   - Search for and click on: **`dev_vikas`**
+   - Search for and click on: **`neeraj115`**
 
 4. **Add Permissions**
    - Click the "Add permissions" button
@@ -50,7 +50,7 @@ If you have AWS CLI installed and admin permissions:
 
 ```bash
 aws iam attach-user-policy \
-    --user-name dev_vikas \
+    --user-name neeraj115 \
     --policy-arn arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
 ```
 
@@ -66,7 +66,7 @@ Then test:
 If you're not the account owner or don't have IAM admin permissions:
 
 1. **Contact your AWS account administrator**
-   - Ask them to attach `AmazonEC2ReadOnlyAccess` policy to user `dev_vikas`
+   - Ask them to attach `AmazonEC2ReadOnlyAccess` policy to user `neeraj115`
    - Or ask them to create a new IAM user with EC2 read permissions
 
 2. **Alternative: Use a Different User**
@@ -80,7 +80,7 @@ If you're not the account owner or don't have IAM admin permissions:
 
 ---
 
-## 🧪 Verify the Fix
+## Verify the Fix
 
 After adding permissions, wait 1-2 minutes for changes to propagate, then:
 
@@ -94,7 +94,7 @@ After adding permissions, wait 1-2 minutes for changes to propagate, then:
 
 ---
 
-## 📝 What This Policy Allows
+## What This Policy Allows
 
 The `AmazonEC2ReadOnlyAccess` policy allows:
 - ✅ Reading EC2 instance information (DescribeInstances)
@@ -106,11 +106,11 @@ The `AmazonEC2ReadOnlyAccess` policy allows:
 
 ---
 
-## 🔍 Check Current Permissions
+## Check Current Permissions
 
 To see what permissions your user currently has:
 
-1. Go to IAM Console → Users → `dev_vikas`
+1. Go to IAM Console → Users → `neeraj115`
 2. Click "Permissions" tab
 3. Review the policies listed
 

@@ -1,8 +1,8 @@
-# AWS Account Setup Guide for aws-eye CLI
+# AWS Account Setup Guide for aws-eye 🟧 CLI
 
 This guide explains what you need from your AWS account to use the `aws-eye` CLI tool, including free tier requirements.
 
-## ✅ What You Need
+## What You Need
 
 ### 1. **AWS Account** (Free Tier is Sufficient)
 - You can use a free tier AWS account
@@ -17,7 +17,7 @@ Access Key ID and Secret Access Key for authentication.
 
 ---
 
-## 🚀 Step-by-Step Setup
+## Step-by-Step Setup
 
 ### Step 1: Create an IAM User (if you don't have one)
 
@@ -114,7 +114,7 @@ region = ap-south-1
 
 ---
 
-## 🧪 Testing Your Setup
+## Testing Your Setup
 
 1. **Verify credentials are set:**
    ```bash
@@ -151,7 +151,7 @@ region = ap-south-1
 
 ---
 
-## ❓ Troubleshooting
+## Troubleshooting
 
 ### Error: "failed to load AWS config"
 - **Solution**: Check that your credentials are set correctly
@@ -172,7 +172,7 @@ region = ap-south-1
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [AWS Free Tier Details](https://aws.amazon.com/free/)
 - [IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html)

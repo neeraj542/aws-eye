@@ -1,4 +1,4 @@
-# aws-eye
+# aws-eye 🟧
 
 [![Documentation](https://img.shields.io/badge/docs-available-blue)](DOCUMENTATION.md)
 [![MIT License](https://img.shields.io/badge/MIT-License-green)](LICENSE)
